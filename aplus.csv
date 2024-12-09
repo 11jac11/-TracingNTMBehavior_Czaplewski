@@ -1,0 +1,15 @@
+one or more a's
+q1,q2,qacc,qrej
+a,b
+a,b,_
+q1
+qacc
+qrej
+q1,a,q2,a,R
+q1,b,q1,b,R
+q2,a,q2,a,R
+q2,b,q2,b,R
+q2,_,qacc,_,R
+q1,_,qrej,_,R
+
+q1,_,qrej,_,R
