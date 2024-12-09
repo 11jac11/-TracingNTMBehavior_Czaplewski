@@ -1,0 +1,16 @@
+equal number of 0s and 1s
+q1,qe0,qe1,qacc,qrej
+0,1
+0,1,_
+q1
+qacc
+qrej
+q1,0,qe0,0,R
+q1,1,qe1,1,R
+qe0,1,q1,1,R
+qe0,0,qrej,0,R
+qe1,0,q1,0,R
+qe1,1,qrej,1,R
+q1,_,qacc,_,R
+qe0,_,qrej,_,R
+qe1,_,qrej,_,R
