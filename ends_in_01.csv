@@ -1,0 +1,15 @@
+binary ends in 01
+q1,q2,q3,qacc,qrej
+0,1
+0,1,_
+q1
+qacc
+qrej
+q1,0,q1,0,R
+q1,1,q1,1,R
+q1,0,q2,0,R
+q2,1,q3,1,R
+q2,0,q1,0,R
+q3,_,qacc,_,R
+q3,0,qrej,0,R
+q3,1,qrej,1,R
